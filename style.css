@@ -248,3 +248,19 @@
     }
     
 }
+@media screen and (max-width:460px) {
+    .skill-second-row{
+        flex-wrap: wrap;
+    }
+    .skill-first-row{
+        flex-wrap: wrap;
+    }
+    .skill-anim-image{
+        height: 300px;
+    }
+}
+@media screen and (max-width:405px) {
+    .profile-pic{
+        width: 300px;
+    }
+}
