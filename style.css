@@ -151,6 +151,7 @@
     border-radius: 10px;
     width: 300px;
     border: none;
+    outline: none;
 }
 .send-button{
     width: 200px;
