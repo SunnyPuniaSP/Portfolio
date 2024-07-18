@@ -37,7 +37,7 @@
                 <img src="assets/profile image.jpg" alt="sunny image" class="profile-pic">
             </div>
             <div class="head-txt px-4">
-                <h3 class="mb-2 playwrite-cz-uniquifier">I' am</h3>
+                <h3 class="mb-2 playwrite-cz-uniquifier i_am">I' am</h3>
                 <h1 class="name maname-regular">SUNNY PUNIA</h1>
             </div>
         </div>
@@ -114,15 +114,17 @@
             <img src="./assets/customer-support.png" alt="" class="cs-image">
           </div>
           <div class="contact-form">
-            <form action="">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="72b1b342-cd1f-42c8-a13c-bcf9ef76788a">
               <label for="" class="contact-ele">Name</label><br>
-              <input type="text" class="mb-4 contact-input"><br>
+              <input type="text" name="Name" class="mb-4 contact-input" required><br>
               <label for="" class="contact-ele">Email</label><br>
-              <input type="email" class="mb-4 contact-input"><br>
+              <input type="email" name="email" class="mb-4 contact-input" required><br>
               <label for="" class="contact-ele">Message</label><br>
-              <textarea name="" id="" cols="40" rows="4" class="contact-input"></textarea>
+              <textarea name="Message" id="" cols="40" rows="4" class="contact-input" required></textarea><br>
+              <button class="send-button btn btn-dark mt-5 contact-input" type="submit">Send</button>
             </form>
-            <button class="send-button btn btn-dark mt-5">Send</button>
+            
           </div>
         </div>
       </div>
