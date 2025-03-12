@@ -72,18 +72,18 @@
     align-items: center;
     color: #C13DD9;
 }
-.skill-first-row{
+.skill-row{
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
     margin-top: 20px;
     justify-content: center;
 }
-.skill-second-row{
+/* .skill-second-row{
     display: flex;
     gap: 10px;
     justify-content: center;
-}
+} */
 
 .skill{
     display: flex;
